@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello World, AngularJS - ViralPatel.net</title>
+    <script type="text/javascript"
+        src="bower_components/angular/angular.min.js"></script>
+ 
+</head>
+<body ng-app="myApp" ng-controller="myCtrl">
+     
+    Write some text in textbox:
+    <input type="text" ng-model="sometext" />
+ 
+    <h1>Hello {{ sometext }}</h1>
+
+    <input type="button" ng-click="display()" value="Click me!">
+
+    <h2>{{newtext}}</h2>
+     
+     <script src="dist/all.js"></script>
+     
+</body>
+</html>
